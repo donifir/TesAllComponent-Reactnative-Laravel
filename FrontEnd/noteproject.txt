@@ -1,0 +1,30 @@
+suplier
+    -validasi data langsung dari backend->masuk ke redux
+    -pengiriman data detail dengan params route navigation(pengirim id)
+
+Barang
+    -select fild ambil dari data api dan di conver
+
+aut
+    -rediredt dari aut login tidak di manual
+    -redirect berasan dari routes login->splas->unlogin
+
+
+voice to text
+    -penambahan "LogBox.ignoreLogs(['new NativeEventEmitter()']);"
+    -sumber https://github.com/react-native-voice/voice/issues/357
+
+scan barcode 
+    -rn camera
+            * error 
+                 files found with path 'lib/arm64-v8a/libfolly_runtime.so' from inputs:
+                - /Users/mlecoq/Developer/archireport/archireport-mobile/node_modules/react-native-reanimated/android/build/.transforms/c3cd520d4a2b5d5d580950f0336053f0/transformed/jetified-react-native-reanimated-69-hermes/jni/arm64-v8a/libfolly_runtime.so
+                - /Users/mlecoq/.gradle/caches/transforms-3/c419917c6a2d843f216f918bd1f984b5/transformed/jetified-react-native-0.69.1-debug/jni/arm64-v8a/libfolly_runtime.so
+                If you are using jniLibs and CMake IMPORTED targets, see
+            * error using 8.0 bild grandle 8.0
+            * Buble edit []
+        -install
+        -set permission
+    -vision-camera-code-scanner
+        -install
+        -set buble
